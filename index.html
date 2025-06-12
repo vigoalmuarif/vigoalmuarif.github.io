@@ -43,6 +43,7 @@
       href="/public/plugins/swiper/swiper-bundle.min.css"
       rel="stylesheet"
     />
+    <link href="./src/output.css" rel="stylesheet">
     <style>
       .swiper {
         width: 275px;
@@ -365,21 +366,24 @@
                     <h1
                       class="text-xl font-bold text-gray-800 pt-7 lg:text-2xl"
                     >
-                      Sistem Informasi Pendataan Kader
+                      Point-of-sale (kasir & Inventory)
                     </h1>
                     <h1 class="text-sm font-semibold text-gray-500 pt-1">
                       Sekarang
                     </h1>
                     <p
-                      class="text-gray-600 font-normal text-base leading-relaxed pt-5"
+                      class="text-gray-600 font-normal text-sm leading-relaxed pt-5"
                     >
-                      Sistem Pendataan kader untuk caleg DPRD Provinsi DI.
-                      Yogyakarta Dapil 1 Kota Yogyakarta.
+                      Sistem kasir dan inventory untuk toko offline dan online.
                     </p>
                     <div class="tag pt-3">
                       <span
                         class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
                         >Laravel</span
+                      >
+                      <span
+                        class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        >Livewire</span
                       >
                       <span
                         class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
@@ -399,7 +403,11 @@
                       >
                       <span
                         class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
-                        >MySQL</span
+                        >AlpineJs</span
+                      >
+                      <span
+                        class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        >PostgreSQL</span
                       >
                     </div>
                     <div class="py-7 flex self-end">
@@ -416,41 +424,49 @@
                     <h1
                       class="text-xl font-bold text-gray-800 pt-7 lg:text-2xl"
                     >
-                      Sistem Informasi Wedding Management
+                      Wedding Management
                     </h1>
                     <h1 class="text-sm font-semibold text-gray-500 pt-1">
                       Selanjutnya
                     </h1>
                     <p
-                      class="text-gray-600 font-normal text-base leading-relaxed pt-5"
+                      class="text-gray-600 font-normal text-sm leading-relaxed pt-5"
                     >
                       SIM Wedding Management mampu mengelola seperti undangan,
                       tamu, sumbangan, give dan dll....
                     </p>
                     <div class="tag pt-3">
                       <span
-                        class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        class="bg-slate-500/30 text-emerald-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
                         >Laravel</span
                       >
                       <span
-                        class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        class="bg-slate-500/30 text-emerald-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        >Livewire</span
+                      >
+                      <span
+                        class="bg-slate-500/30 text-emerald-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
                         >PHP</span
                       >
                       <span
-                        class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        class="bg-slate-500/30 text-emerald-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
                         >JavaScript</span
                       >
                       <span
-                        class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        class="bg-slate-500/30 text-emerald-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
                         >TailwindCss</span
                       >
                       <span
-                        class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        class="bg-slate-500/30 text-emerald-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
                         >jQuery</span
                       >
                       <span
-                        class="bg-slate-500/30 text-purple-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
-                        >MySQL</span
+                        class="bg-slate-500/30 text-emerald-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        >Alpine</span
+                      >
+                      <span
+                        class="bg-slate-500/30 text-emerald-600/90 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                        >PostgreSQL</span
                       >
                     </div>
                     <div class="py-7 flex self-end">
@@ -482,6 +498,127 @@
           Daftar Proyek Aplikasi
         </h2>
         <div class="grid grid-cols-1 justify-items-center gap-8 lg:grid-cols-3">
+          
+          <!-- Pasien Poli Anak -->
+          <div
+            class="max-w-sm bg-slate-800 border border-slate-700 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <div class="thumbnail-portfolio p-2">
+              <a href="/src/detail_pendaftaran_poli_anak.html">
+                <img
+                  class="rounded-2xl h-[180px] w-full"
+                  src="/public/img/poli-anak/dashboard.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="info flex justify-between mb-3">
+              <span
+                class="bg-green/30 text-green-600 text-xs font-medium ml-5 px-2.5 py-0.5 rounded-lg dark:bg-gray-700 dark:text-green-400 border border-green-600"
+                >Klinik BWCC, Tangerang</span
+              >
+              <p class="text-sm font-medium text-slate-500 mr-5">
+                Agustus 2024
+              </p>
+            </div>
+            <div class="p-5 pt-1">
+              <a href="/src/detail_pendaftaran_poli_anak.html">
+                <h5
+                  class="mb-1 text-lg font-bold tracking-tight text-gray-300 dark:text-white hover:text-indigo-500"
+                >
+                  Pendaftaran Poli Anak
+                </h5>
+              </a>
+
+              <!-- <p
+                class="mb-2 mt-4 font-normal text-gray-400 dark:text-gray-200 leading-relaxed"
+              >
+                Sistem Informasi Manajemen (SIM) Antrian Pasien berbasis Web
+                pada Puskesmas Patimuan.
+              </p> -->
+              <div class="tag">
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >Laravel</span
+                >
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >JavaScript</span
+                >
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >Tailwindcc</span
+                >
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >Jquery</span
+                >
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >MySQL</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Marketing Budi -->
+          <div
+            class="max-w-sm bg-slate-800 border border-slate-700 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <div class="thumbnail-portfolio p-2">
+              <a href="/src/detail_portfolio_budi.html">
+                <img
+                  class="rounded-2xl h-[180px] w-full"
+                  src="/public/img/budi.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="info flex justify-between mb-3">
+              <span
+                class="bg-green/30 text-green-600 text-xs font-medium ml-5 px-2.5 py-0.5 rounded-lg dark:bg-gray-700 dark:text-green-400 border border-green-600"
+                >Tabanan, Bali</span
+              >
+              <p class="text-sm font-medium text-slate-500 mr-5">
+                Februari 2024
+              </p>
+            </div>
+            <div class="p-5 pt-1">
+              <a href="/src/detail_portfolio_budi.html">
+                <h5
+                  class="mb-1 text-lg font-bold tracking-tight text-gray-300 dark:text-white hover:text-indigo-500"
+                >
+                  Website Marketing Mobil
+                </h5>
+              </a>
+
+              <!-- <p
+                class="mb-2 mt-4 font-normal text-gray-400 dark:text-gray-200 leading-relaxed"
+              >
+                Sistem Informasi Manajemen (SIM) Antrian Pasien berbasis Web
+                pada Puskesmas Patimuan.
+              </p> -->
+              <div class="tag">
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >NextJs</span
+                >
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >JavaScript</span
+                >
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >Tailwindcc</span
+                >
+                <span
+                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                  >Prisma</span
+                >
+              </div>
+            </div>
+          </div>
+
           <!-- SIM Antrian -->
           <div
             class="max-w-sm bg-slate-800 border border-slate-700 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700"
@@ -509,7 +646,7 @@
                 <h5
                   class="mb-1 text-lg font-bold tracking-tight text-gray-300 dark:text-white hover:text-indigo-500"
                 >
-                  Realtime Sistem Informasi Antrian Pada Pukskesmas Web-Based
+                  Realtime Sistem Antrian
                 </h5>
               </a>
 
@@ -539,119 +676,6 @@
                 <span
                   class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
                   >WebSocket</span
-                >
-              </div>
-            </div>
-          </div>
-          <!-- SIM Pendaftaran -->
-          <div
-            class="max-w-sm bg-slate-800 border border-slate-700 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700"
-          >
-            <div class="thumbnail-portfolio p-2">
-              <a href="/src/maintance.html">
-                <img
-                  class="rounded-2xl h-[180px] w-full"
-                  src="/public/img/portfolio1.jpeg"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div class="info flex justify-between mb-3">
-              <span
-                class="bg-green/30 text-green-600 text-xs font-medium ml-5 px-2.5 py-0.5 rounded-lg dark:bg-gray-700 dark:text-green-400 border border-green-600"
-                >Puskesmas Patimuan</span
-              >
-              <p class="text-sm font-medium text-slate-500 mr-5">Juli 2023</p>
-            </div>
-            <div class="p-5 pt-1">
-              <a href="/src/maintance.html">
-                <h5
-                  class="mb-1 text-lg font-bold tracking-tight text-gray-300 dark:text-white hover:text-indigo-500"
-                >
-                  Sistem Informasi Manajemen Pendaftaran Pasien Pada Puskesmas
-                  Web-Based
-                </h5>
-              </a>
-
-              <!-- <p
-                class="mb-2 mt-4 font-normal text-gray-400 dark:text-gray-200 leading-relaxed"
-              >
-                Sistem Informasi Manajemen (SIM) Pendaftaran serta Kunjungan
-                Pasien berbasis Web pada Puskesmas Patimuan.
-              </p> -->
-              <div class="tag">
-                <span
-                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >Laravel</span
-                >
-                <span
-                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >JavaScript</span
-                >
-                <span
-                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >Bootstrap</span
-                >
-                <span
-                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >MySQL</span
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- SIM Kios Pasar -->
-          <div
-            class="max-w-sm bg-slate-800 border border-slate-700 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700"
-          >
-            <div class="thumbnail-portfolio p-2">
-              <a href="/src/maintance.html">
-                <img
-                  class="rounded-2xl h-[180px] w-full"
-                  src="/public/img/portfolio3.jpeg"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div class="info flex justify-between mb-3">
-              <span
-                class="bg-green/30 text-green-600 text-xs font-medium ml-5 px-2.5 py-0.5 rounded-lg dark:bg-gray-700 dark:text-green-400 border border-green-600"
-                >BUMDes Karsa Mandiri Bumireja</span
-              >
-              <p class="text-sm font-medium text-slate-500 mr-5">Juni 2022</p>
-            </div>
-            <div class="p-5 pt-1">
-              <a href="/src/maintance.html">
-                <h5
-                  class="mb-1 text-lg font-bold tracking-tight text-gray-300 dark:text-white hover:text-indigo-500"
-                >
-                  Sistem Informasi Manajemen Sewa Kios & Los Pasar Bumireja
-                  Web-Based
-                </h5>
-              </a>
-              <!-- 
-              <p
-                class="mb-2 mt-4 font-normal text-gray-400 dark:text-gray-200 leading-relaxed"
-              >
-                Sistem Informasi Manajemen (SIM) Sewa Kios dan Los Pasar
-                Bumireja, Cilacap.
-              </p> -->
-              <div class="tag">
-                <span
-                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >CodeIgniter</span
-                >
-                <span
-                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >JavaScript</span
-                >
-                <span
-                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >Bootstrap</span
-                >
-                <span
-                  class="bg-slate-500/20 text-purple-300/50 text-xs font-medium mr-1 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                  >MySQL</span
                 >
               </div>
             </div>
@@ -932,7 +956,7 @@
       >
         <span
           class="text-transparent font-bold text-sm bg-clip-text bg-gradient-to-r from-primary to-secondary sm:text-center dark:text-gray-400"
-          >© 2023
+          >© 2025
           <a href="#" class="hover:underline">Vigoalmuarif.</a>
         </span>
       </div>
