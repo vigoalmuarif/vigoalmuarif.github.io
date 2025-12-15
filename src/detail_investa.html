@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Pendaftaran Poli Anak</title>
+    <title>Portfolio - Sistem Manajemen Aset</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -111,7 +111,7 @@
         <h1
           class="uppercase text-2xl font-extrabold text-title text-center lg:text-4xl"
         >
-          Pendaftaran Poli Anak
+          Sistem Manajemen Aset
         </h1>
       </div>
       <div class="container">
@@ -123,7 +123,14 @@
             <p
               class="mb-2 mt-4 font-normal text-base text-gray-500 dark:text-gray-200 leading-relaxed"
             >
-              Poli anak adalah sebuah layanan kesehatan yang khusus menangani masalah kesehatan anak-anak, mulai dari bayi hingga remaja. Layanan ini biasanya tersedia di rumah sakit atau puskesmas, dan ditangani oleh dokter spesialis anak (pediatri). 
+              Sistem Manajemen Aset adalah sistem terintegrasi yang dirancang
+              untuk membantu perusahaan atau instansi dalam mengelola seluruh
+              siklus hidup aset secara terstruktur dan terdokumentasi. Sistem
+              ini mencakup pencatatan, pemantauan, pemeliharaan, hingga
+              pelaporan aset secara akurat dan transparan. Dengan sistem ini,
+              pengelolaan aset menjadi lebih efisien, meminimalkan risiko
+              kehilangan data, meningkatkan pengendalian internal, serta
+              mendukung pengambilan keputusan berbasis data.
             </p>
           </div>
           <div class="w-full px-4 mt-10 lg:w-4/12 lg:mt-0">
@@ -202,11 +209,15 @@
                         >
                         <span
                           class="bg-purple-100 text-purple-800 text-xs font-medium mr-1 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
+                          >Livewire</span
+                        >
+                        <span
+                          class="bg-purple-100 text-purple-800 text-xs font-medium mr-1 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
                           >TailwindCSS</span
                         >
                         <span
                           class="bg-purple-100 text-purple-800 text-xs font-medium mr-1 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300"
-                          >JQuery</span
+                          >AlpineJs</span
                         >
                       </div>
                     </div>
@@ -234,7 +245,7 @@
                       </div>
                     </div>
                   </li>
-                     <li class="py-3 sm:py-4">
+                  <li class="py-3 sm:py-4">
                     <div class="flex items-center">
                       <div class="flex-1 min-w-0">
                         <p
@@ -242,10 +253,44 @@
                         >
                           Link Website
                         </p>
-                        <a href="https://pasien.alfatih-solusindo.com/" target="_blank"
-                          class=" text-purple-800 text-xs font-medium mr-1  dark:text-purple-300 hover:text-purple-500"
-                          >https://pasien.alfatih-solusindo.com</a
+                        <a
+                          href="https://asettipsy.com"
+                          target="_blank"
+                          class="text-purple-800 text-xs font-medium mr-1 dark:text-purple-300 hover:text-purple-500"
+                          >https://asettipsy.com</a
                         >
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-3 sm:py-4">
+                    <div class="flex items-center">
+                      <div class="flex-1 min-w-0">
+                        <p
+                          class="text-sm font-medium text-gray-900 truncate dark:text-white"
+                        >
+                          Link Demo
+                        </p>
+                        <a
+                          href="https://dev.asettipsy.com"
+                          target="_blank"
+                          class="text-purple-800 text-xs font-medium mr-1 dark:text-purple-300 hover:text-purple-500"
+                          >https://dev.asettipsy.com</a
+                        >
+                        <p
+                          class="text-xs font-normal text-gray-500 truncate dark:text-white"
+                        >
+                          Login menggunakan :
+                        </p>
+                        <p
+                          class="text-xs font-normal text-gray-500 truncate dark:text-white"
+                        >
+                          email : admin@example.com
+                        </p>
+                        <p
+                          class="text-xs font-normal text-gray-500 truncate dark:text-white"
+                        >
+                          password : password
+                        </p>
                       </div>
                     </div>
                   </li>
@@ -262,12 +307,19 @@
               Halaman Dashboard
             </h1>
             <h2 class="text-base font-medium text-slate-500">
-              Pada Halaman utama terdapat beberapa informasi seperti list pasien yang daftar hari ini, total pasien, total registrasi, dan trdapat grafik kunjungan pasien.
+              Halaman Dashboard merupakan pusat informasi utama dalam Sistem
+              Manajemen Aset. Halaman ini menyajikan ringkasan kondisi aset
+              secara menyeluruh melalui data visual dan indikator utama,
+              sehingga pengguna dapat memantau status aset dengan cepat dan
+              akurat. Dashboard dirancang untuk membantu pengambilan keputusan
+              dengan menampilkan informasi penting seperti jumlah aset, kategori
+              aset, status penggunaan, serta aktivitas terbaru dalam satu
+              tampilan terpadu..
             </h2>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <img
-              src="/public/img/poli-anak/dashboard.png"
+              src="/public/img/tipsytales/dashboard.png"
               class="rounded-2xl mt-8 lg:mt-0 shadow"
               alt=""
             />
@@ -278,15 +330,21 @@
             <h1
               class="uppercase text-2xl mb-4 font-extrabold text-title lg:text-4xl"
             >
-              Halaman Pendaftaran Pasien
+              Halaman Aset
             </h1>
             <h2 class="text-base text-slate-500">
-              JIka pasien belum terdaftar maka akan diarahkan ke halaman pendaftaran pasien, jika sudah pernah daftar maka langsung ke registrasi kunjungan pasien.
+              Halaman Aset digunakan untuk mengelola dan menampilkan seluruh
+              data aset yang dimiliki perusahaan atau instansi secara terpusat.
+              Pada halaman ini, pengguna dapat melihat informasi detail aset,
+              status penggunaan, lokasi, serta kategori aset secara terstruktur
+              dan mudah diakses. Halaman ini menjadi inti pengelolaan aset,
+              memastikan setiap aset tercatat dengan jelas, akurat, dan dapat
+              dipantau sepanjang siklus penggunaannya.
             </h2>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <img
-              src="/public/img/poli-anak/pendaftaran-pasien.png"
+              src="/public/img/tipsytales/aset.png"
               class="rounded-2xl mt-8 lg:mt-0 shadow"
               alt=""
             />
@@ -297,15 +355,21 @@
             <h1
               class="uppercase text-2xl mb-4 font-extrabold text-title lg:text-4xl"
             >
-              Halaman Registrasi Pasien
+              Halaman Tambah Aset
             </h1>
             <h2 class="text-base font-medium text-slate-500">
-              Halaman Registrasi digunakan untuk pencatatan kunjungan pasien. halaman registrasi hanya dapat digunakan oleh pasien yang sudah terdaftar sebelumnya.
+              Halaman Tambah Aset digunakan untuk mencatat aset baru ke dalam
+              Sistem Manajemen Aset secara terstruktur dan terdokumentasi.
+              Melalui halaman ini, pengguna dapat menginput informasi detail
+              aset seperti identitas aset, kategori, lokasi, nilai perolehan,
+              serta status penggunaan. Setiap data yang dimasukkan akan
+              tersimpan secara terpusat dan menjadi dasar dalam proses
+              pemantauan, pelaporan, serta pengelolaan aset selanjutnya.
             </h2>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <img
-              src="/public/img/poli-anak/registrasi-pasien.png"
+              src="/public/img/tipsytales/tambah_aset.png"
               class="rounded-2xl mt-8 lg:mt-0 shadow"
               alt=""
             />
@@ -316,15 +380,21 @@
             <h1
               class="uppercase text-2xl mb-4 font-extrabold text-title lg:text-4xl"
             >
-              Halaman List Kujungan
+              Halaman Detali Aset
             </h1>
             <h2 class="text-base font-medium text-slate-500">
-              Halaman kunjungan digunakan untuk melihat semua pasien yang telah berkunjung atau periksa.
+              Halaman Detail Aset menyajikan informasi lengkap dan terperinci
+              mengenai satu aset secara spesifik. Halaman ini menampilkan data
+              identitas aset, kategori, lokasi, nilai perolehan, status, serta
+              riwayat aktivitas aset dalam satu tampilan terintegrasi. Melalui
+              halaman ini, pengguna dapat memantau kondisi aset, menelusuri
+              perubahan data, dan memastikan setiap aset terkelola secara akurat
+              dan terdokumentasi.
             </h2>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <img
-              src="/public/img/poli-anak/data-kunjungan.png"
+              src="/public/img/tipsytales/detail.png"
               class="rounded-2xl mt-8 lg:mt-0 shadow"
               alt=""
             />
@@ -335,15 +405,21 @@
             <h1
               class="uppercase text-2xl mb-4 font-extrabold text-title lg:text-4xl"
             >
-              Halaman Data Medis Pasien
+              Halaman Pelaporan (Aset Hilang)
             </h1>
             <h2 class="text-base font-medium text-slate-500">
-              Halaman Profile digunakan untuk melihat detail informasi pasien.
+              Halaman Pelaporan Aset Hilang digunakan untuk melaporkan aset yang
+              tidak ditemukan atau diduga hilang. Melalui halaman ini, pengguna
+              dapat mencatat informasi kejadian secara lengkap, termasuk
+              identitas aset, waktu kejadian, lokasi terakhir, dan keterangan
+              tambahan. Setiap laporan tercatat secara sistematis dan
+              terintegrasi dengan data aset, sehingga memudahkan proses tindak
+              lanjut, verifikasi, dan pengambilan keputusan oleh pihak terkait.
             </h2>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <img
-              src="/public/img/poli-anak/profile-pasien.png"
+              src="/public/img/tipsytales/hilang.png"
               class="rounded-2xl shadow-lg mt-8 lg:mt-0"
               alt=""
             />

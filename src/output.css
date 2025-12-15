@@ -1219,6 +1219,14 @@ input:checked + .toggle-bg {
   margin-top: 2.25rem;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1317,10 +1325,6 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .min-w-0 {
@@ -1439,18 +1443,6 @@ input:checked + .toggle-bg {
   flex-wrap: wrap;
 }
 
-.place-content-center {
-  place-content: center;
-}
-
-.place-content-end {
-  place-content: end;
-}
-
-.place-content-stretch {
-  place-content: stretch;
-}
-
 .items-start {
   align-items: flex-start;
 }
@@ -1487,26 +1479,6 @@ input:checked + .toggle-bg {
   gap: 2rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.gap-y-5 {
-  row-gap: 1.25rem;
-}
-
-.gap-y-6 {
-  row-gap: 1.5rem;
-}
-
-.gap-y-8 {
-  row-gap: 2rem;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1517,6 +1489,12 @@ input:checked + .toggle-bg {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -2052,6 +2030,10 @@ input:checked + .toggle-bg {
   color: rgb(28 100 242 / var(--tw-text-opacity));
 }
 
+.text-emerald-600\/90 {
+  color: rgb(5 150 105 / 0.9);
+}
+
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -2158,8 +2140,9 @@ input:checked + .toggle-bg {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-emerald-600\/90 {
-  color: rgb(5 150 105 / 0.9);
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -2312,6 +2295,11 @@ input:checked + .toggle-bg {
   color: rgb(104 117 245 / var(--tw-text-opacity));
 }
 
+.hover\:text-purple-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(144 97 249 / var(--tw-text-opacity));
+}
+
 .hover\:text-secondary\/80:hover {
   color: rgb(5 150 105 / 0.8);
 }
@@ -2319,11 +2307,6 @@ input:checked + .toggle-bg {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-purple-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(144 97 249 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
